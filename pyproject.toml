@@ -1,0 +1,11 @@
+[yapf]
+based_on_style = "pep8"
+column_limit = 96
+use_tabs = true
+indent_width = 3
+continuation_align_style = "fixed"
+
+[tool.yapfignore]
+ignore_patterns = [
+	"example/**/*.py",
+]

@@ -1,0 +1,17 @@
+/venv/
+*.db
+__pycache__/
+*.egg-info/
+*.egg
+.tox/
+.cach
+wheels/e
+pip-wheel-metadata/
+.pytest_cache/
+*.mo
+*.pot
+.env
+.env.*
+_-TODO-_
+/custom/
+/custom/*

@@ -1,0 +1,24 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/**.egg-info": true,
+		"**/__pycache__": true,
+		"**/venv": true,
+		"**/.tox": true,
+		"**/.python-version": true,
+		"**/.pytest_cache": true,
+	},
+	"files.watcherExclude": {
+		"**/migrations": true,
+	},
+	"search.exclude": {
+		"**/migrations": true,
+		"**/venv": true,
+		"**/__pycache__": true,
+		"**/.git": true,
+		"**/**.egg-info": true,
+		"**/.tox": true,
+		"**/custom": true
+	},
+	"git.autorefresh": true
+}
