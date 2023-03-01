@@ -1,4 +1,4 @@
-``*      +    ,\            _.._      +                ``<br>
+``*      +    ,\            _.._      +               ``<br>
 ``   .         \\\,_      .' .-'`       .         *     ``<br>
 ``          *   \` ,\    /  /                           ``<br>
 ``*        __,.-" =__) |  |       *                 . ``<br>
@@ -6,27 +6,25 @@
 ``  . ,_/   ,    \/\_     '._'-._                       ``<br>
 ``    \_|    )_-\ \_-`        ```   .       +        +  ``<br>
 ``       `-----` `--`                                   ``<br>
+----------
+My **FastAPI Starting Point**<br>
+*Code-named 'Usagi'<br>*
 
-My FastAPI Starting Point<br>
-Code-named 'Usagi' 
-
-**Features:**<br>
-
+**Current Features:**
 - Basic user management
 	- Role Access Control
 	- User banning functionality
-	- Global logout functionality 
+	- JWT auth
+	- Refresh tokens as an HttpOnly Cookie
+	- 'Global' logout functionality
 - Asynchronous CRUD operations
 - Modern python typing
 - Postgresql+SQLAlchemy
 - Pydantic models
-- JWT auth
-- Refresh tokens as an HttpOnly Cookie
-- Revokable tokens
 - ULIDs
 - Pagination
 - Customized logging
-- Trigram index user alias search example
+- Trigram index search with example
 - Alembic migrations
 - .env selection
 - Soon: Rate limiting
