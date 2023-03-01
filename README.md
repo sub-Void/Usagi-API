@@ -1,39 +1,40 @@
-*      +     ,\         _.._      +                 
-   .         \\\,_    .' .-'`       .         *     
-          *   \` ,\  /  /                           
-*        __,.-" =__) |  |       *                 . 
-       ."        )   \  \          .       *        
-  . ,_/   ,    \/\_   '._'-._                       
-    \_|    )_-\ \_-`     ```   .       +        +   
-       `-----` `--`                                 
+``*      +    ,\            _.._      +                ``<br>
+``   .         \\\,_      .' .-'`       .         *     ``<br>
+``          *   \` ,\    /  /                           ``<br>
+``*        __,.-" =__) |  |       *                 . ``<br>
+``       ."        )     \  \          .       *        ``<br>
+``  . ,_/   ,    \/\_     '._'-._                       ``<br>
+``    \_|    )_-\ \_-`        ```   .       +        +  ``<br>
+``       `-----` `--`                                   ``<br>
 
-My FastAPI Starting Point
+My FastAPI Starting Point<br>
 Code-named 'Usagi' 
 
-Features:
-	- Asynchronous CRUD operations
-	- Postgresql+SQLAlchemy+
-	- Pydantic models
-	- Basic user management
-		- Role Access Control
-		- User banning functionality
-		- Global logout functionality 
-	- JWT auth
-	- Refresh tokens as an HttpOnly Cookie
-	- Revokable tokens
-	- ULIDs
-	- Trigram index user alias search example
-	- Pagination
-	- Customized logging
-	- Modern python typing
-	- Alembic migrations
-	- .env selection
-	- Soon: Rate limiting
-	- Soon: Controlled caching
-	- Soon: Unit Testing
-	- Soon: Relations
+**Features:**<br>
+
+- Basic user management
+	- Role Access Control
+	- User banning functionality
+	- Global logout functionality 
+- Asynchronous CRUD operations
+- Modern python typing
+- Postgresql+SQLAlchemy
+- Pydantic models
+- JWT auth
+- Refresh tokens as an HttpOnly Cookie
+- Revokable tokens
+- ULIDs
+- Pagination
+- Customized logging
+- Trigram index user alias search example
+- Alembic migrations
+- .env selection
+- Soon: Rate limiting
+- Soon: Controlled caching
+- Soon: Unit Testing
+- Soon: Relations
 
 
 Primary references:
-	- https://github.com/tiangolo/full-stack-fastapi-postgresql
-	- https://github.com/jonra1993/fastapi-alembic-sqlmodel-async
+- https://github.com/tiangolo/full-stack-fastapi-postgresql
+- https://github.com/jonra1993/fastapi-alembic-sqlmodel-async
